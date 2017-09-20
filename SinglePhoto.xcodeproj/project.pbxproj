@@ -40,6 +40,7 @@
 			children = (
 				04183ECE1F726E9F00405F71 /* SinglePhoto */,
 				04183ECD1F726E9F00405F71 /* Products */,
+				04183EE21F72781200405F71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +63,13 @@
 				04183EDB1F726E9F00405F71 /* Info.plist */,
 			);
 			path = SinglePhoto;
+			sourceTree = "<group>";
+		};
+		04183EE21F72781200405F71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +105,17 @@
 					04183ECB1F726E9E00405F71 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -217,6 +236,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +286,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
